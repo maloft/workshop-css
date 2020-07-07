@@ -1,17 +1,43 @@
 body {
     background-color: #000099;
     font-family: 'Helvetica', 'Arial';
-    width: 800px;
-    margin: auto;
-
+    font-size: 90%;
+    margin-left: 50px;
 }
 
-h1 {
-    color: white;
+form {
+    background-color: #FAFAFA;
+    padding: 10px;
+    width: 280px;
 }
 
-.centrage, h1, li,ul, form {
+fieldset {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #DF3F3F;
+}
+
+legend {
+    color: #DF3F3F;
+    font-weight: bold
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+label.inline {
+    display: inline;
+    margin-right: 50px;
+}
+
+.centrage, h1, li,ul, input {
     text-align: center ;
+}
+
+h1{
+    color: white;
 }
 
 ul {
@@ -35,3 +61,23 @@ input {
     border-radius: 8px;
 
 } 
+
+/*
+Css d'un tableau
+*/
+
+table {
+    border: medium solid #D83F3D;
+    width: 50%;
+}
+
+td,
+th {
+    border: thin solid #6495ed;
+    width: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+}
